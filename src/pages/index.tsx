@@ -1,7 +1,9 @@
 import React from "react";
+import style from "../styles/home.module.scss"
+
 
 export default function Home() {
   return (
-    <h1>Hello word Next</h1>
+    <h1 className={style.title}>Hello word Next</h1>
   )
 }
